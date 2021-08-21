@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <RootNamespace>uk.JohnCook.dotnet.GameChatLite</RootNamespace>
+    <PackageId>uk.JohnCook.dotnet.GameChatLite</PackageId>
+    <Authors>John Cook</Authors>
+    <Copyright>© John Cook 2021.</Copyright>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
+    <Description>A potential WIP to create a stripped down client that supports voice chat without high CPU usage.</Description>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.902.49" />
+  </ItemGroup>
+
+</Project>
